@@ -1,0 +1,69 @@
+// REQUIRED DEPENDENCIES - DO NOT CHANGE
+@import "dependencies";
+
+// THEME COMPONENTS
+// Base
+@import "nucleus/theme/base";
+
+// Core
+@import "plantilla/core";
+
+// Typography
+@import "plantilla/typography";
+
+//-------------------------------------------
+// Sections
+//-------------------------------------------
+// Navigation
+@import "plantilla/sections/nav";
+
+// Header
+@import "plantilla/sections/header";
+
+// Sobremi
+@import "plantilla/sections/sobremi";
+
+// Trabajos
+@import "plantilla/sections/trabajos";
+
+// Clientes
+@import "plantilla/sections/clientes";
+
+// Contacto
+@import "plantilla/sections/contacto";
+
+// Footer
+@import "plantilla/sections/footer";
+
+// Sidepanel Off Canvas
+@import "plantilla/sections/offcanvas";
+
+// Main
+@import "plantilla/sections/main";
+
+//-------------------------------------------
+// Styles
+//-------------------------------------------
+// Variations
+@import "plantilla/styles/variations";
+
+// Tables
+@import "plantilla/styles/tables";
+
+// Forms
+@import "plantilla/styles/forms";
+
+// Social
+@import "plantilla/styles/social";
+
+// Sample Content
+@import "plantilla/styles/sample";
+
+// Offline
+@import "plantilla/styles/offline";
+//-------------------------------------------
+
+// BREAKPOINTS
+@import "nucleus/theme/breakpoints/base";
+
+//-------------------------------------------

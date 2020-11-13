@@ -1,0 +1,50 @@
+name: '12'
+timestamp: 1600350717
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/home.png'
+  name: home
+  timestamp: 1600343894
+positions:
+  sobremi: 'Sobre mi'
+  habilidades: Habilidades
+  trabajos: 'Trabajos pasados'
+  contacto: 'Formulario de contacto'
+  menu-footer: Menu-footer
+sections:
+  navigation: Navigation
+  sobremi: Sobremi
+  trabajos: Trabajos
+  clientes: Clientes
+  contacto: Contacto
+  header: Header
+  main: Main
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  menu:
+    menu-1793: Menu
+  logo:
+    logo-1673: 'Logo / Image'
+    logo-9785: 'Logo / Image'
+    logo-8876: 'Logo / Image'
+    logo-2997: 'Logo / Image'
+    logo-5589: 'Logo / Image'
+    logo-7167: 'Logo / Image'
+  sample:
+    sample-3580: 'Header Content'
+  position:
+    position-position-1415: 'Sobre mi'
+    position-position-1851: Habilidades
+    position-position-9719: 'Trabajos pasados'
+    position-position-3664: 'Formulario de contacto'
+    position-menu-footer: Menu-footer
+  custom:
+    custom-1756: 'Custom HTML'
+  social:
+    social-8098: Social
+  copyright:
+    copyright-9808: Copyright
+  mobile-menu:
+    mobile-menu-5237: Mobile-menu
+inherit: {  }

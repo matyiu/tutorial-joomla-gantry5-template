@@ -1,0 +1,13 @@
+name: Footer
+type: section
+
+form:
+  fields:
+    background:
+      type: input.colorpicker
+      label: Background
+      default: "#0D0517"
+    text-color:
+      type: input.colorpicker
+      label: Text
+      default: "#ffffff"

@@ -1,0 +1,9 @@
+plantilla-theme:
+  title: 'Plantilla Theme'
+  description: 'Sample menu for Plantilla theme.'
+
+  items:
+    plantilla:
+      title: 'Home'
+      outline: home
+      home: 1

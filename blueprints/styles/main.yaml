@@ -1,0 +1,17 @@
+name: Main
+type: section
+
+form:
+  fields:
+    background:
+      type: input.colorpicker
+      label: Background
+      default: "#ffffff"
+    heading-color:
+      type: input.colorpicker
+      label: Heading
+      default: "#161616"
+    text-color:
+      type: input.colorpicker
+      label: Text
+      default: "#2B2B2B"

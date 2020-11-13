@@ -1,0 +1,29 @@
+#g-contacto {
+    background: $contacto-background;
+    background-image: $contacto-background-image;
+	color: $contacto-text-color;
+	position: relative;
+    z-index: 3;
+    padding: $section-padding 0 140px 0;
+
+    @include heading-color($contacto-heading-color);
+
+    .jd-simple-contact-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .jd-simple-contact-form-header h5 {
+            @extend h2;
+            text-align: center;
+        }
+
+        form {
+            max-width: 400px;
+
+            .btn.button {
+                @extend .button;
+            }
+        }
+    }
+}

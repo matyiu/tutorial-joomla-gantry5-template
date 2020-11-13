@@ -1,0 +1,78 @@
+name: '9'
+timestamp: 1600336859
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1600336859
+positions:
+  header: Header
+  breadcrumbs: Breadcrumbs
+  footer: Footer
+sections:
+  header: Header
+  navigation: Navigation
+  main: Main
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  logo:
+    logo-1440: Logo
+    logo-6831: Logo
+  position:
+    position-header: Header
+    position-breadcrumbs: Breadcrumbs
+    position-footer: Footer
+    position-position-6668: Header
+    position-position-4077: Breadcrumbs
+    position-position-6823: Footer
+  menu:
+    menu-2649: Menu
+    menu-5441: Menu
+  messages:
+    system-messages-9690: 'System Messages'
+    system-messages-4142: 'System Messages'
+  content:
+    system-content-2750: 'Page Content'
+    system-content-2708: 'Page Content'
+  copyright:
+    copyright-1015: Copyright
+    copyright-5352: Copyright
+  spacer:
+    spacer-8700: Spacer
+    spacer-1471: Spacer
+  branding:
+    branding-2935: Branding
+    branding-2393: Branding
+  mobile-menu:
+    mobile-menu-8107: Mobile-menu
+    mobile-menu-4810: Mobile-menu
+inherit:
+  default:
+    header: header
+    logo-1440: logo-1440
+    position-header: position-header
+    navigation: navigation
+    menu-2649: menu-2649
+    main: main
+    position-breadcrumbs: position-breadcrumbs
+    system-messages-9690: system-messages-9690
+    system-content-2750: system-content-2750
+    footer: footer
+    position-footer: position-footer
+    copyright-1015: copyright-1015
+    spacer-8700: spacer-8700
+    branding-2935: branding-2935
+    offcanvas: offcanvas
+    mobile-menu-8107: mobile-menu-8107
+    logo-6831: logo-1440
+    position-position-6668: position-header
+    menu-5441: menu-2649
+    position-position-4077: position-breadcrumbs
+    system-messages-4142: system-messages-9690
+    system-content-2708: system-content-2750
+    position-position-6823: position-footer
+    copyright-5352: copyright-1015
+    spacer-1471: spacer-8700
+    branding-2393: branding-2935
+    mobile-menu-4810: mobile-menu-8107

@@ -1,0 +1,30 @@
+#g-clientes {
+    background: $clientes-background;
+    background-image: $clientes-background-image;
+	color: $clientes-text-color;
+	position: relative;
+    z-index: 3;
+    padding: $section-padding 0;
+
+    @include heading-color($clientes-heading-color);
+
+    .g-grid:first-child {
+        .g-content {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    .g-grid:last-child {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .g-content {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+    }
+}

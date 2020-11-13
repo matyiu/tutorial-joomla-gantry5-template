@@ -1,0 +1,67 @@
+#g-sobremi {
+    background: $sobremi-background;
+    background-image: $sobremi-background-image;
+	color: $sobremi-text-color;
+	position: relative;
+    z-index: 3;
+    padding: 140px 0 $section-padding 0;
+    
+    @include heading-color($sobremi-heading-color);
+
+    .sobremi-content {
+        p {
+            margin: 0 0 35px 0;
+            max-width: 383px;
+        }
+
+        ul {
+            margin-left: 17px;
+
+            li {
+                line-height: 1.875rem;
+                margin-bottom: 5px;
+            }
+        }
+    }
+
+    .skills {
+        .g-grid:first-child .g-content {
+            margin: 0;
+            padding: 0;
+        }
+
+        .g-grid:last-child {
+            display: flex;
+            flex-flow: row wrap;
+            margin: -15px;
+            max-width: 460px;
+
+            .g-block {
+                width: 115px;
+                padding: 15px;
+                flex: initial;
+
+                .g-content {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 15px 5px;
+                    margin: 0;
+                    border: 2px solid $accent-color-1;
+
+                    i {
+                        font-size: 60px;
+                        margin: 0 0 5px 0;
+                        color: $base-heading-color;
+                        opacity: 1;
+                    }
+
+                    h4 {
+                        margin: 0;
+                        color: $base-text-color;
+                    }
+                }
+            }
+        }
+    }
+}

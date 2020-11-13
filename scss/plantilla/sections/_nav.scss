@@ -1,0 +1,91 @@
+#g-navigation {
+    background: $navigation-background;
+    color: $navigation-text-color;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+
+    .g-container {
+        position: relative;
+    }
+
+    a {
+        color: lighten($navigation-background, 40%);
+
+        &:hover {
+            color: $navigation-text-color;
+        }
+    }
+
+    .g-main-nav {
+        margin: -($content-padding + $content-margin);
+        @include main-nav-colors($navigation-background, $navigation-text-color, darken($navigation-background, 10%), $navigation-text-color);
+
+        .g-toplevel {
+            @include display(flex);
+            @include flex-flow(row wrap);
+            justify-content: center;
+            -webkit-justify-content: center;
+        }
+    }
+
+    @include main-nav-indicators($navigation-background, $navigation-text-color);
+}
+
+.g-main-nav {
+    .g-toplevel {
+        font-weight: $font-weight-medium;
+
+        > li {
+
+            > .g-menu-item-container {
+                text-decoration: none;
+                padding: 1.2rem $content-padding;
+            }
+
+            > .g-menu-item-container {
+                > .g-menu-item-content {
+                    line-height: normal;
+                }
+            }
+        }
+
+        i {
+            opacity: 0.6;
+        }
+    }
+}
+
+// Hide on Mobile Menu Breakpoint
+@if $menu-hide-on-mobile == 1 {
+    @media only all and (max-width: $breakpoints-mobile-menu-breakpoint) {
+        [data-g-mobile-target] {
+            display: none;
+            visibility: hidden;
+            pointer-events: none;
+        }
+    }
+}
+
+#g-navigation, #g-header {
+    .align-left {
+        .g-toplevel {
+            justify-content: flex-start;
+            -webkit-justify-content: flex-start;
+        }
+    }
+
+    .align-right {
+        .g-toplevel {
+            justify-content: flex-end;
+            -webkit-justify-content: flex-end;
+        }
+    }
+}
+
+@media print {
+    #g-navigation {
+        background: #fff !important;
+        color: #000 !important;
+    }
+}

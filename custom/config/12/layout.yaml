@@ -1,0 +1,207 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/home.png'
+  name: home
+  timestamp: 1600343894
+layout:
+  /navigation/:
+    -
+      - menu-1793
+  /header/:
+    -
+      - 'logo-1673 44'
+      - 'sample-3580 56'
+  /sobremi/:
+    -
+      - 'position-position-1415 50'
+      - 'position-position-1851 50'
+  /trabajos/:
+    -
+      - position-position-9719
+  /main/: {  }
+  /clientes/:
+    -
+      - custom-1756
+    -
+      - 'logo-9785 18'
+      - 'logo-8876 18'
+      - 'logo-2997 28'
+      - 'logo-5589 18'
+      - 'logo-7167 18'
+  /contacto/:
+    -
+      - position-position-3664
+  /footer/:
+    -
+      - position-menu-footer
+    -
+      - 'social-8098 50'
+      - 'copyright-9808 50'
+  offcanvas:
+    -
+      - mobile-menu-5237
+structure:
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+  header:
+    attributes:
+      boxed: '2'
+      class: ''
+      variations: ''
+  sobremi:
+    type: section
+    attributes:
+      boxed: ''
+  trabajos:
+    type: section
+    attributes:
+      boxed: ''
+  main:
+    attributes:
+      boxed: ''
+  clientes:
+    type: section
+    attributes:
+      boxed: ''
+  contacto:
+    type: section
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+content:
+  logo-1673:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://header.png'
+      link: '0'
+      text: ''
+      class: ''
+    block:
+      variations: align-right
+  sample-3580:
+    title: 'Header Content'
+    attributes:
+      image: ''
+      headline: 'Diseñador y desarrollador web'
+      description: 'Nulla nunc gravida nec lobortis. Lacus vitae magnis sed urna. Fusce dignissim nulla vel bibendum eget vitae. Tellus, lectus tempus in felis. Dictum malesuada ac condimentum integer facilisis convallis sapien. Blandit sapien, facilisis sed ultrices aenean. Leo in elit faucibus condimentum vitae. Ut sit facilisis nibh fermentum risus vitae sit malesuada. Suspendisse et eu purus nisl facilisis eu turpis.'
+      link: '#g-contacto'
+      linktext: Contactar
+      samples: {  }
+    block:
+      variations: header-content
+  position-position-1415:
+    title: 'Sobre mi'
+    attributes:
+      key: sobremi
+    block:
+      variations: sobremi-content
+  position-position-1851:
+    title: Habilidades
+    attributes:
+      key: habilidades
+    block:
+      variations: skills
+  position-position-9719:
+    title: 'Trabajos pasados'
+    attributes:
+      key: trabajos
+  custom-1756:
+    title: 'Custom HTML'
+    attributes:
+      html: '<h2>Clientes</h2>'
+    block:
+      variations: center
+  logo-9785:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://Logo.png'
+      link: '0'
+      text: ''
+      class: ''
+  logo-8876:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://Logo.png'
+      link: '0'
+      text: ''
+      class: ''
+  logo-2997:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://Logo.png'
+      link: '0'
+      text: ''
+      class: ''
+  logo-5589:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://Logo.png'
+      link: '0'
+      text: ''
+      class: ''
+  logo-7167:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://Logo.png'
+      link: '0'
+      text: ''
+      class: ''
+  position-position-3664:
+    title: 'Formulario de contacto'
+    attributes:
+      key: contacto
+  position-menu-footer:
+    attributes:
+      key: menu-footer
+  social-8098:
+    attributes:
+      css:
+        class: ''
+      display: icons_only
+      items:
+        -
+          icon: 'fa fa-facebook'
+          text: ''
+          title: ''
+          link: '#'
+          name: Facebook
+        -
+          icon: 'fa fa-twitter'
+          text: ''
+          title: ''
+          link: '#'
+          name: Twitter
+        -
+          icon: 'fa fa-instagram'
+          text: ''
+          title: ''
+          link: '#'
+          name: Instagram
+        -
+          icon: 'fa fa-youtube-play'
+          text: ''
+          title: ''
+          link: '#'
+          name: Youtube
+        -
+          icon: 'fa fa-dribbble'
+          text: ''
+          title: ''
+          link: '#'
+          name: Dribbble
+        -
+          icon: 'fa fa-behance'
+          text: ''
+          title: ''
+          link: '#'
+          name: Behance
+  copyright-9808:
+    attributes:
+      date:
+        start: now
+        end: ''
+      owner: 'Nombre apellido. Todos los derechos resevados'

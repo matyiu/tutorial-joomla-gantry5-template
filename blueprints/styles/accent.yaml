@@ -1,0 +1,13 @@
+name: Accent
+type: core
+
+form:
+  fields:
+    color-1:
+      type: input.colorpicker
+      label: Color 1
+      default: "#6118BE"
+    color-2:
+      type: input.colorpicker
+      label: Color 2
+      default: "#183CBE"

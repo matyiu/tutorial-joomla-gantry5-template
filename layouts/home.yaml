@@ -1,0 +1,35 @@
+version: 2
+
+preset:
+  image: 'gantry-admin://images/layouts/home.png'
+  name: home
+
+layout:
+  /navigation/:
+    - menu
+
+  /header/:
+
+  /sobremi/:
+
+  /trabajos/:
+
+  /main/:
+
+  /clientes/:
+
+  /contacto/:
+
+  /footer/:
+    - position-menu-footer
+    -
+      - social 50
+      - branding 50
+
+  offcanvas:
+    - mobile-menu
+
+structure:
+  subfeature:
+    attributes:
+      class: flush

@@ -1,0 +1,21 @@
+name: Base
+type: core
+
+form:
+  fields:
+    heading-color:
+      type: input.colorpicker
+      label: Heading Color
+      default: "#161616"
+    text-color:
+      type: input.colorpicker
+      label: Text Color
+      default: "#2B2B2B"
+    body-font:
+      type: input.fonts
+      label: Text Font
+      default: "roboto, sans-serif"
+    heading-font:
+      type: input.fonts
+      label: Heading Font
+      default: "roboto, sans-serif"

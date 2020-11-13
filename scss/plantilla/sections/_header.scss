@@ -1,0 +1,36 @@
+#g-header {
+	background: $header-background;
+	background-image: $header-background-image;
+	color: $header-text-color;
+	position: relative;
+	z-index: 3;
+
+	.header-content {
+		display: flex;
+		align-items: center;
+
+		.sample-content {
+			max-width: 655px;
+			text-align: left;
+			margin-left: 35px;
+
+			.sample-description {
+				max-width: 552px;
+				margin-bottom: 30px;
+
+				& + p {
+					margin: 0;
+				}
+			}
+		}
+	}
+
+	@include heading-color($header-heading-color);
+}
+
+@media print {
+	#g-header {
+		background: #fff !important;
+		color: #000 !important;
+	}
+}

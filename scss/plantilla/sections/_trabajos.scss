@@ -1,0 +1,34 @@
+#g-trabajos {
+    background: $trabajos-background;
+    background-image: $trabajos-background-image;
+	color: $trabajos-text-color;
+	position: relative;
+    z-index: 3;
+    padding: $section-padding 0;
+
+    @include heading-color($trabajos-heading-color);
+
+    h2 {
+        text-align: center;
+    }
+
+    .carouselck {
+        .carouselck_caption {
+            .carouselck_caption_title {
+                font-size: $h3-font-size;
+                text-align: center;
+            }
+        }
+
+        .carouselck_prev,
+        .carouselck_next {
+            height: 58px;
+            width: 58px;
+            background: lighten($color: $accent-color-1, $amount: 43%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50px;
+        }
+    }
+}

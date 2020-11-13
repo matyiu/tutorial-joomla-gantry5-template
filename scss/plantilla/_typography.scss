@@ -1,0 +1,26 @@
+// Font Import
+@include import-font($base-body-font);
+@include import-font($base-heading-font);
+
+body {
+	font-family: get-font-family($base-body-font);
+	font-weight: $font-weight-regular;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: get-font-family($base-heading-font);
+	font-weight: $font-weight-medium;
+	line-height: 3.3125rem;
+}
+
+h1 {
+	font-weight: $font-weight-regular;
+}
+
+bold, strong {
+	font-weight: $font-weight-bold;
+}
+
+.button {
+	font-weight: $font-weight-medium;
+}

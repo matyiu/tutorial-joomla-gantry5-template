@@ -1,0 +1,13 @@
+name: Navigation
+type: section
+
+form:
+  fields:
+    background:
+      type: input.colorpicker
+      label: Background
+      default: "#6118BE"
+    text-color:
+      type: input.colorpicker
+      label: Text
+      default: "#ffffff"

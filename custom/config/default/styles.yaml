@@ -1,0 +1,47 @@
+preset: preset1
+base:
+  heading-color: '#161616'
+  text-color: '#2B2B2B'
+  body-font: 'roboto, sans-serif'
+  heading-font: 'roboto, sans-serif'
+accent:
+  color-1: '#6118BE'
+  color-2: '#183CBE'
+navigation:
+  background: '#6118BE'
+  text-color: '#ffffff'
+header:
+  background: '#ffffff'
+  background-image: ''
+  heading-color: '#161616'
+  text-color: '#2B2B2B'
+sobremi:
+  background: '#ffffff'
+  background-image: ''
+  heading-color: '#161616'
+  text-color: '#2B2B2B'
+trabajos:
+  background: '#ffffff'
+  background-image: ''
+  heading-color: '#161616'
+  text-color: '#2B2B2B'
+clientes:
+  background: '#ffffff'
+  background-image: ''
+  heading-color: '#161616'
+  text-color: '#2B2B2B'
+main:
+  background: '#ffffff'
+  heading-color: '#161616'
+  text-color: '#2B2B2B'
+contacto:
+  background: '#ffffff'
+  background-image: ''
+  heading-color: '#161616'
+  text-color: '#2B2B2B'
+footer:
+  background: '#0D0517'
+  text-color: '#ffffff'
+offcanvas:
+  background: '#6118BE'
+  text-color: '#ffffff'
